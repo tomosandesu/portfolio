@@ -1,0 +1,448 @@
+header{
+    top:0;
+    background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+    height:100px;
+    border-bottom: 1px solid navy;
+ }
+ .header-all{
+     display:flex;
+     height:90px;
+     margin:auto;
+     margin:10px;
+ }
+ .header-left{
+     width: 400px;
+     height:90px;
+ }
+ .title{
+     margin:30px 50px 30px 50px;
+     font-family: cursive;
+ }
+ .header-center{
+     width: 1000px;
+     height:90px;
+     display: flex;
+ }
+ .header-center a{
+   text-decoration:none;
+ }
+ .header-right{
+   width: 206px;
+   height:90px;
+}
+.moves{
+   width: 150px;
+   height:50px;
+   background-color: yellow;
+   margin:30px 30px 0px 50px;
+   background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
+}
+ .move{
+     width: 100px;
+     padding: 40px 20px 0 20px;
+     margin:30px 0px 0px 10px;
+     height:20px;
+     color:black;
+     border-left:1px solid navy;
+     border-right:1px solid navy;
+     text-align:center;
+     background-color: rgb(238, 243, 212);
+ }
+ main{
+    background-color: rgb(201, 201, 241);
+    height: 5300px;
+    overflow:hidden;
+ }
+ .contains{
+    width: 1200px;
+    height: 470px;
+    background-color: azure;
+    margin: 50px 200px 10px 200px;
+    border: 1px solid navy;
+ }
+ .contains-top{
+   border-bottom:1px solid black;
+   display: flex;
+   background-color: rgb(238, 244, 205);
+ }
+ .contains-top-left{
+    width: 900px;
+    height: 100px;
+ }
+ .contains-top-left p{
+   margin:20px;
+ }
+ .contains-top-right{
+   width: 300px;
+   height: 100px;
+   display:flex;
+ }
+ .contains-top-right a{
+   border:1px solid navy;
+   background-color:chartreuse;
+   width: 100px;
+   height: 20px;
+   text-align:center;
+   color:black;
+   font-size: 14px;
+   padding-top:10px;
+   padding-bottom: 7px;
+   text-decoration:none;
+   display:block;
+   margin:40px 5px 0px 20px;
+ }
+ .delete{
+   border:1px solid navy;
+   background-color: red;
+   width: 100px;
+   height: 40px;
+   text-align:center;
+   color:black;
+   padding-top:10px;
+   padding-bottom: 6px;
+   text-decoration:none;
+   display:block;
+   margin:40px 5px 0px 5px;
+ }
+
+ .contains-center{
+    width: 1200px;
+    height: 300px;
+ }
+ .contains-center p{
+    padding-left: 20px;
+ }
+ .contains-bottom{
+    width: 1200px;
+    height: 70px;
+    border-top:1px solid navy;
+ }
+ .contains-bottom p{
+   padding-left: 20px;
+ }
+ footer{
+   background-color: lightsteelblue;
+    height:200px;
+ }
+ .paginate{
+   width: 1600px;
+   height: 200px;
+   background-color: lightsteelblue;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 520px) and (max-width: 960px) {
+   
+   header{
+      background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+      height:100px;
+      width: 850px;
+      border-bottom: 1px solid navy;
+   }
+   .header-all{
+      display:flex;
+      width: 800px;
+      height:90px;
+      margin:auto;
+      margin:10px;
+   }
+   .header-left{
+      width: 400px;
+      height:90px;
+   }
+   .title{
+      margin:10px 50px 30px 50px;
+      font-family: cursive;
+   }
+   .header-center{
+      width: 1000px;
+      height:90px;
+      display: flex;
+   }
+   .header-center a{
+      text-decoration:none;
+   }
+   .header-right{
+      width: 206px;
+      height:90px;
+   }
+   .moves{
+      width: 100px;
+      height:50px;
+      background-color: yellow;
+      margin:30px 30px 0px 50px;
+      background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
+   }
+   .move{
+      width: 80px;
+      padding: 40px 20px 0 20px;
+      margin:30px 0px 0px 10px;
+      height:20px;
+      color:black;
+      border-left:1px solid navy;
+      border-right:1px solid navy;
+      text-align:center;
+      background-color: rgb(238, 243, 212);
+   }
+   main{
+      background-color: rgb(201, 201, 241);
+      height: 5300px;
+      width: 850px;
+      overflow:hidden;
+   }
+   .contains{
+      width: 600px;
+      height: 470px;
+      background-color: azure;
+      margin: 50px 100px 10px 100px;
+      border: 1px solid navy;
+   }
+   .contains-top{
+      border-bottom:1px solid black;
+      display: flex;
+      background-color: rgb(238, 244, 205);
+   }
+   .contains-top-left{
+      width: 400px;
+      height: 100px;
+   }
+   .contains-top-left p{
+      margin:20px;
+   }
+   .contains-top-right{
+      width: 200px;
+      height: 100px;
+      display:flex;
+   }
+   .contains-top-right a{
+      border:1px solid navy;
+      background-color:chartreuse;
+      width: 50px;
+      height: 20px;
+      text-align:center;
+      color:black;
+      font-size: 14px;
+      padding-top:10px;
+      padding-bottom: 7px;
+      text-decoration:none;
+      display:block;
+      margin:40px 5px 0px 20px;
+   }
+   .delete{
+      border:1px solid navy;
+      background-color: red;
+      width: 50px;
+      height: 40px;
+      text-align:center;
+      color:black;
+      padding-top:10px;
+      padding-bottom: 6px;
+      text-decoration:none;
+      display:block;
+      margin:40px 5px 0px 5px;
+   }
+
+   .contains-center{
+      width: 600px;
+      height: 300px;
+   }
+   .contains-center p{
+      padding-left: 20px;
+   }
+   .contains-bottom{
+      width: 600px;
+      height: 70px;
+      border-top:1px solid navy;
+   }
+   .contains-bottom p{
+      padding-left: 20px;
+   }
+   footer{
+      background-color: lightsteelblue;
+      height:200px;
+      width: 850px;
+   }
+   .paginate .pagination .page-link {
+      padding: 5px 10px; 
+      font-size: 20px;  
+  }
+  .paginate .pagination .page-item {
+   margin-right: 5px;
+}
+.pagination .page-link .page-item-prev,
+.pagination .page-link .page-item-next {
+    font-size: 16px;  /* これは例です。適切なフォントサイズに調整してください */
+}
+
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 520px) {
+   /* スタイルの調整 */
+
+   header{
+      background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+      height:100px;
+      width: 400px;
+      border-bottom: 1px solid navy;
+   }
+   .header-all{
+      display:flex;
+      width: 400px;
+      height:90px;
+      margin:auto;
+      margin:10px;
+   }
+   .header-left{
+      width: 100px;
+      height:90px;
+   }
+   .title{
+      margin:10px 10px 30px 10px;
+      font-family: cursive;
+   }
+   .header-center{
+      width: 200px;
+      height:90px;
+      display: flex;
+   }
+   .header-center a{
+      text-decoration:none;
+   }
+   .header-right{
+      width: 106px;
+      height:90px;
+   }
+   .moves{
+      width: 80px;
+      height:50px;
+      background-color: yellow;
+      margin:30px 0px 0px 10px;
+      background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
+   }
+   .move{
+      width: 80px;
+      padding: 40px 5px 0 5px;
+      margin:30px 0px 0px 10px;
+      height:20px;
+      color:black;
+      border-left:1px solid navy;
+      border-right:1px solid navy;
+      text-align:center;
+      background-color: rgb(238, 243, 212);
+   }
+   main{
+      background-color: rgb(201, 201, 241);
+      height: 5300px;
+      width: 400px;
+      overflow:hidden;
+   }
+   .contains{
+      width: 350px;
+      height: 470px;
+      background-color: azure;
+      margin: 50px 20px 10px 20px;
+      border: 1px solid navy;
+   }
+   .contains-top{
+      border-bottom:1px solid black;
+      display: flex;
+      background-color: rgb(238, 244, 205);
+   }
+   .contains-top-left{
+      width: 200px;
+      height: 100px;
+   }
+   .contains-top-left p{
+      margin:10px;
+   }
+   .contains-top-right{
+      width: 150px;
+      height: 100px;
+      display:flex;
+   }
+   .contains-top-right a{
+      border:1px solid navy;
+      background-color:chartreuse;
+      width: 50px;
+      height: 20px;
+      text-align:center;
+      color:black;
+      font-size: 14px;
+      padding-top:10px;
+      padding-bottom: 7px;
+      text-decoration:none;
+      display:block;
+      margin:40px 5px 0px 20px;
+   }
+   .delete{
+      border:1px solid navy;
+      background-color: red;
+      width: 50px;
+      height: 40px;
+      text-align:center;
+      color:black;
+      padding-top:10px;
+      padding-bottom: 6px;
+      text-decoration:none;
+      display:block;
+      margin:40px 5px 0px 5px;
+   }
+
+   .contains-center{
+      width: 350px;
+      height: 300px;
+   }
+   .contains-center p{
+      padding-left: 10px;
+   }
+   .contains-bottom{
+      width: 350px;
+      height: 70px;
+      border-top:1px solid navy;
+   }
+   .contains-bottom p{
+      padding-left: 10px;
+   }
+   footer{
+      background-color: lightsteelblue;
+      height:200px;
+      width: 400px;
+   }
+   .paginate{
+      width: 200px;
+      height: 50px;
+   }
+   .paginate p{
+      width: 100px;
+      height:50px;
+   }
+
+}

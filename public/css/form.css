@@ -1,0 +1,619 @@
+header{
+    top:0;
+    height:100px;
+    border-bottom: 1px solid black;
+    background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+ }
+ .header-all{
+    display:flex;
+    height:90px;
+    margin:auto;
+}
+.header-left{
+    width: 400px;
+    height:90px;
+}
+.title{
+    margin:30px 50px 30px 50px;
+    font-family: cursive;
+}
+.header-center{
+    width: 1000px;
+    height:90px;
+    display: flex;
+}
+.header-center a{
+    text-decoration:none;
+}
+.header-right{
+    width: 206px;
+    height:90px;
+ }
+ .moves{
+    width: 150px;
+    height:50px;
+    background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
+    margin:30px 30px 0px 50px;
+ }
+.move{
+    width: 100px;
+    padding: 40px 20px 0 20px;
+    margin:30px 0px 0px 10px;
+    height:20px;
+    color:black;
+    border-left:1px solid navy;
+    border-right:1px solid navy;
+    text-align:center;
+    background-color: rgb(238, 243, 212);
+}
+.header-right{
+    width: 206px;
+    height:90px;
+}
+.register{
+  margin-top:5px;
+}
+.switch{
+    width: 150px;
+    padding: 10px 20px;
+}
+main{
+    position:relative;
+    background-color: lightblue;
+    height: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+.error{
+    background-color: #fdd;
+    color:red;
+}
+.record{
+    position :absolute;
+    top:7%;
+    left:22%;
+    width:900px;
+    height: 600px;
+    background-color: brown;
+
+}
+.record-top{
+    width:900px;
+    height:500px;
+    background-color: cadetblue;
+    display:flex;
+}
+.record-left{
+   width:300px;
+   height:450px;
+   background-color: cadetblue;
+   margin:30px 50px 0 100px;
+}
+.today{
+    width:250px;
+    height: 30px;
+    background-color: lightgray;
+}
+.bed_time_start{
+    width:250px;
+    height: 30px;
+    background-color: lightgray;
+}
+.bed_time_end{
+    width:250px;
+    height: 30px;
+    background-color: lightgray;
+}
+.body_temperature{
+    width:250px;
+    height: 30px;
+    background-color: lightgray;
+}
+.phone_time{
+    width:250px;
+    height: 30px;
+    background-color: lightgray;
+}
+
+.record-right{
+    width:300px;
+    height:450px;
+    background-color: cadetblue;
+    margin:30px 100px 0 50px;
+}
+.exercise_time{
+    width:250px;
+    height: 30px;
+    background-color: lightgray;
+}
+.job_time{
+    width:250px;
+    height: 30px;
+    background-color: lightgray;
+}
+.bathing_time{
+    width:250px;
+    height: 30px;
+    background-color: lightgray;
+}
+.bath{
+    width:40px;
+    height: 20px;
+    background-color: lightgray;
+}
+
+.perform{
+    width:40px;
+    height: 20px;
+    background-color: lightgray;
+}
+.record-bottom{
+   width:900px;
+   height:100px;
+   background-color: cadetblue;
+}
+.finish{
+    display:block;
+    padding:20px;
+    width: 200px;
+    margin:0px 350px 0px 350px;
+    line-height:30px;
+    background:lightseagreen;
+    color:#fff;
+    border-radius:25px;
+    box-shadow:0 5px 0 navy;
+    text-decoration:none;
+    text-align:center;
+}
+.finish:hover{
+    box-shadow:none;
+    background:blue;
+}
+footer{
+    background-color: lightsteelblue;
+    height:200px;
+    border-top:1px solid navy;
+ }
+ .footer-text{
+    width: 600px;
+    height: 200px;
+    margin:auto ;
+    display: flex;
+ }
+ .footer-left{
+    width: 200px;
+    height: 200px;
+ }
+ .footer-left p{
+    font-family: cursive;
+    margin: 70px 0px;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .footer-center{
+    width: 200px;
+    height: 200px;
+ }
+ .footer-center a{
+    margin: 70px 50px;
+    display:block;
+ }
+
+
+
+
+
+
+
+
+ @media (min-width: 520px) and (max-width: 960px) {
+    
+    
+    header{
+        width: 800px;
+        height:100px;
+        border-bottom: 1px solid black;
+        background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+     }
+     .header-all{
+        display:flex;
+        height:90px;
+        width: 800px;
+        margin:auto;
+    }
+    .header-left{
+        width: 200px;
+        height:90px;
+    }
+    .title{
+        margin:30px 50px 30px 50px;
+        font-family: cursive;
+    }
+    .header-center{
+        width: 400px;
+        height:90px;
+        display: flex;
+    }
+    .header-center a{
+        text-decoration:none;
+    }
+    .header-right{
+        width: 200px;
+        height:90px;
+     }
+     .moves{
+        width: 100px;
+        height:50px;
+        background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
+        margin:30px 20px 0px 20px;
+     }
+    .move{
+        width: 80px;
+        padding: 40px 20px 0 20px;
+        margin:30px 0px 0px 10px;
+        height:20px;
+        color:black;
+        border-left:1px solid navy;
+        border-right:1px solid navy;
+        text-align:center;
+        background-color: rgb(238, 243, 212);
+    }
+    .register{
+      margin-top:5px;
+    }
+    .switch{
+        width: 150px;
+        padding: 10px 20px;
+    }
+    main{
+        position:relative;
+        background-color: lightblue;
+        height: 700px;
+        width: 800px;
+
+    }
+    .error{
+        background-color: #fdd;
+        color:red;
+    }
+    .record{
+        position :absolute;
+        top:13%;
+        left:2%;
+        margin:auto;
+        width:700px;
+        height: 600px;
+        background-color: brown;
+    
+    }
+    .record-top{
+        width:700px;
+        height:500px;
+        background-color: cadetblue;
+        display:flex;
+    }
+    .record-left{
+       width:300px;
+       height:450px;
+       background-color: cadetblue;
+       margin:10px 10px 0 80px;
+    }
+    .today{
+        width:200px;
+        height: 30px;
+        background-color: lightgray;
+    }
+    .bed_time_start{
+        width:200px;
+        height: 30px;
+        background-color: lightgray;
+    }
+    .bed_time_end{
+        width:200px;
+        height: 30px;
+        background-color: lightgray;
+    }
+    .body_temperature{
+        width:200px;
+        height: 30px;
+        background-color: lightgray;
+    }
+    .phone_time{
+        width:200px;
+        height: 30px;
+        background-color: lightgray;
+    }
+    
+    .record-right{
+        width:300px;
+        height:450px;
+        background-color: cadetblue;
+        margin:10px 10px 0 10px;
+    }
+    .exercise_time{
+        width:200px;
+        height: 30px;
+        background-color: lightgray;
+    }
+    .job_time{
+        width:200px;
+        height: 30px;
+        background-color: lightgray;
+    }
+    .bathing_time{
+        width:200px;
+        height: 30px;
+        background-color: lightgray;
+    }
+    .bath{
+        width:40px;
+        height: 20px;
+        background-color: lightgray;
+    }
+    
+    .perform{
+        width:40px;
+        height: 20px;
+        background-color: lightgray;
+    }
+    .record-bottom{
+       width:700px;
+       height:100px;
+       background-color: cadetblue;
+    }
+    .finish{
+        display:block;
+        padding:20px;
+        width: 200px;
+        margin:auto;
+        line-height:30px;
+        background:lightseagreen;
+        color:#fff;
+        border-radius:25px;
+        box-shadow:0 5px 0 navy;
+        text-decoration:none;
+        text-align:center;
+    }
+    .finish:hover{
+        box-shadow:none;
+        background:blue;
+    }
+    footer{
+        background-color: lightsteelblue;
+        height:200px;
+        border-top:1px solid navy;
+     }
+     .footer-text{
+        width: 600px;
+        height: 200px;
+        margin:auto ;
+        display: flex;
+     }
+     .footer-left{
+        width: 200px;
+        height: 200px;
+     }
+     .footer-left p{
+        font-family: cursive;
+        margin: 70px 0px;
+        font-size: 20px;
+        font-weight: bold;
+     }
+     .footer-center{
+        width: 200px;
+        height: 200px;
+     }
+     .footer-center a{
+        margin: 70px 50px;
+        display:block;
+     }
+    
+
+ }
+
+
+
+
+
+
+ @media (min-width: 320px) and (max-width: 520px) {
+
+    header{
+        width: 400px;
+        height:100px;
+        border-bottom: 1px solid black;
+        background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+     }
+     .header-all{
+        display:flex;
+        height:90px;
+        width: 400px;
+        margin:auto;
+    }
+    .header-left{
+        width: 100px;
+        height:90px;
+    }
+    .title{
+        margin:10px 5px 10px 5px;
+        font-family: cursive;
+    }
+    .header-center{
+        width: 200px;
+        height:40px;
+        display: flex;
+    }
+    .header-center a{
+        text-decoration:none;
+        font-size: 10px;
+    }
+    .header-right{
+        width: 100px;
+        height:90px;
+     }
+     .moves{
+        width: 80px;
+        height:30px;
+        font-size:10px;
+        background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
+        margin:50px 10px 0px 10px;
+     }
+    .move{
+        width: 80px;
+        padding: 10px 10px 0 10px;
+        margin:60px 0px 0px 5px;
+        height:20px;
+        color:black;
+        border-left:1px solid navy;
+        border-right:1px solid navy;
+        text-align:center;
+        background-color: rgb(238, 243, 212);
+    }
+    .register{
+      margin-top:5px;
+    }
+    .switch{
+        width: 150px;
+        padding: 10px 0px;
+    }
+    main{
+        background-color: lightblue;
+        height: 700px;
+        width: 400px;
+
+    }
+    .error{
+        background-color: #fdd;
+        color:red;
+    }
+    .record{
+        width:350px;
+        height: 500px;
+        background-color: brown;
+    
+    }
+    .record-top{
+        width:350px;
+        height:500px;
+        background-color: cadetblue;
+        display:flex;
+    }
+    .record-left{
+       width:150px;
+       height:450px;
+       background-color: cadetblue;
+       margin:5px 5px 0 5px;
+    }
+    .today{
+        width:100px;
+        height: 20px;
+        background-color: lightgray;
+    }
+    .bed_time_start{
+        width:100px;
+        height: 20px;
+        background-color: lightgray;
+    }
+    .bed_time_end{
+        width:100px;
+        height: 20px;
+        background-color: lightgray;
+    }
+    .body_temperature{
+        width:100px;
+        height: 20px;
+        background-color: lightgray;
+    }
+    .phone_time{
+        width:100px;
+        height: 20px;
+        background-color: lightgray;
+    }
+    
+    .record-right{
+        width:150px;
+        height:450px;
+        background-color: cadetblue;
+        margin:10px 10px 0 10px;
+    }
+    .exercise_time{
+        width:100px;
+        height: 20px;
+        background-color: lightgray;
+    }
+    .job_time{
+        width:100px;
+        height: 20px;
+        background-color: lightgray;
+    }
+    .bathing_time{
+        width:100px;
+        height: 20px;
+        background-color: lightgray;
+    }
+    .bath{
+        width:100px;
+        height: 20px;
+        background-color: lightgray;
+    }
+    
+    .perform{
+        width:40px;
+        height: 20px;
+        background-color: lightgray;
+    }
+    .record-bottom{
+       width:400px;
+       height:100px;
+       background-color: cadetblue;
+    }
+    .finish{
+        display:block;
+        padding:30px;
+        width: 100px;
+        height: 30px;
+        margin:auto;
+        line-height:10px;
+        background:lightseagreen;
+        color:#fff;
+        border-radius:20px;
+        box-shadow:0 5px 0 navy;
+        text-decoration:none;
+        text-align:center;
+    }
+    .finish:hover{
+        box-shadow:none;
+        background:blue;
+    }
+    footer{
+        background-color: lightsteelblue;
+        height:200px;
+        width: 400px;
+        border-top:1px solid navy;
+     }
+     .footer-text{
+        width: 300px;
+        height: 200px;
+        margin:auto ;
+        display: flex;
+     }
+     .footer-left{
+        width: 200px;
+        height: 200px;
+     }
+     .footer-left p{
+        font-family: cursive;
+        margin: 70px 0px;
+        font-size: 20px;
+        font-weight: bold;
+     }
+     .footer-center{
+        width: 200px;
+        height: 200px;
+     }
+     .footer-center a{
+        margin: 70px 50px;
+        display:block;
+     }
+    
+ } 
