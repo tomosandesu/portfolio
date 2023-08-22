@@ -1,8 +1,8 @@
 header{
    width:100%;
    height:100px;
-   border-bottom: 1px solid black;
-   background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+
+   background: #46a860;
 }
 .header-all{
     width: 100%;
@@ -26,6 +26,9 @@ header{
     text-decoration:none;
     display: flex;
 }
+.header-center a{
+   text-decoration:none;
+ }
 .move{
     width: 100px;
     padding: 40px 20px 0 20px;
@@ -35,7 +38,7 @@ header{
     border-left:1px solid navy;
     border-right:1px solid navy;
     text-align:center;
-    background-color: rgb(238, 243, 212);
+    background-color: #46a860;
 }
 .header-right{
     /* width: 206px; */
@@ -45,8 +48,8 @@ header{
 .moves{
    width: 150px;
    height: 50px;
-   background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
    margin:30px 30px 0px 50px;
+   border-radius: 30px;
 }
 .header {
    display: none;
@@ -55,11 +58,11 @@ header{
 
  /* メイン図形部分 */
  main{
-   background-color: lightblue;
+   background-color: #46a860;
    height: 700px;
 }
  .contents-room{
-    background-color: lightblue;
+    background-color:#46a860;
     height: 700px;
     width: 100%;
     display: flex;
@@ -68,31 +71,27 @@ header{
  .contents-left{
    width: 65%;
    height:700px;
-   background-color: white;
+   background-color: #46a860;
    margin-right: 10px;
    display:flex;
-   border-right:1px solid navy;
  }
  .topic{
     width: 300px;
-    height: 770px;
+    height: 600px;
     margin: 30px 0 30px 30px;
+    background-color: white;
  }
 .content{
    width: 200px;
    height: 70px;
-   background-color: lightgray;
-   border-radius: 20px;
    margin-left: auto;
    margin-right: auto;
    text-align: center;
 }
  .contents{
     width: 300px;
-    height: 230px;
-    background-color: lightgray;
-    margin-top: 30px;
-    border-radius: 60px;
+    height: 200px;
+    margin-top: 0px;
  }
 .contents h3{
    padding-top:25px;
@@ -108,6 +107,9 @@ header{
  .contents-right{
     width: 35%;
     height:700px;
+ }
+ .result-top{
+   padding: 20px;
  }
 footer{
    width:100%;
@@ -147,11 +149,12 @@ footer{
 
 
 @media (min-width: 520px) and (max-width: 960px) {
+   
    header{
       width:850px;
       height:100px;
       border-bottom: 1px solid black;
-      background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+      background: #46a860;
    }
    .header-all{
        width: 850px;
@@ -165,8 +168,9 @@ footer{
        height:90px;
    }
    .title{
-       margin:20px 50px 0px 40px;
+       margin:30px 50px 0px 20px;
        font-family: cursive;
+       font-size: 12px;
    }
    .header-center{
        /* width: 900px; */
@@ -184,7 +188,6 @@ footer{
        border-left:1px solid navy;
        border-right:1px solid navy;
        text-align:center;
-       background-color: rgb(238, 243, 212);
    }
    .header-right{
        /* width: 206px; */
@@ -194,7 +197,6 @@ footer{
    .moves{
       width: 100px;
       height: 50px;
-      background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
       margin:30px 30px 0px 50px;
    }
    .header {
@@ -204,30 +206,26 @@ footer{
     main{
       height: 700px;
       width: 850px;
-      background-color: white;
    }
     .contents-room{
        height: 700px;
        width: 850px;
-       background-color: white;
     }
     .contents-left{
       width: 100%;
       height:700px;
-      background-color: white;
       margin-right: 0px;
       display:flex;
       border-right:1px solid white;;
     }
     .topic{
-       width: 300px;
-       height: 770px;
-       margin: 30px 0 30px 10px;
+       width: 250px;
+       height: 600px;
+       margin: 30px 5 30px 10px;
     }
    .content{
       width: 250px;
       height: 70px;
-      background-color: lightgray;
       border-radius: 20px;
       margin-left: auto;
       margin-right: auto;
@@ -235,8 +233,7 @@ footer{
    }
     .contents{
        width: 250px;
-       height: 230px;
-       background-color: lightgray;
+       height: 200px;
        margin-top: 30px;
        border-radius: 60px;
     }
@@ -295,14 +292,13 @@ footer{
 
  
  @media (min-width: 320px) and (max-width: 520px) {
-   /* スタイルの調整 */
 
 
    header{
       width: 500px;
       height:100px;
       border-bottom: 1px solid black;
-      background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+      background: #46a860;
    }
    .header-all{
        width: 100%;
@@ -318,6 +314,7 @@ footer{
    .title{
        margin:10px 50px 0px 120px;
        font-family: cursive;
+       font-size: 10px;
    }
    .title p{
       display:none;
@@ -360,13 +357,12 @@ footer{
     }
     .topic{
        width: 300px;
-       height: 650px;
+       height: 600px;
        margin-left: 110px;
     }
    .content{
       width: 200px;
       height: 70px;
-      background-color: lightgray;
       border-radius: 20px;
       margin-left: auto;
       margin-right: auto;
@@ -374,8 +370,7 @@ footer{
    }
     .contents{
        width: 300px;
-       height: 230px;
-       background-color: lightgray;
+       height: 200px;
        margin-top: 30px;
        border-radius: 60px;
     }
@@ -384,7 +379,7 @@ footer{
       margin-left:40px;
       width: 200px;
       height:30px;
-      
+      font-size: 14px;
    }
    .contents p{
       margin-top:50px;

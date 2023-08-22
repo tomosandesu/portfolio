@@ -14,7 +14,7 @@
                 <div class="logo">
                 </div>
                 <div class="title">
-                    <h2>ZenVital Matrix</h2>
+                    <h1>ZenVital Matrix</h1>
                 </div>
             </div>
             <div class="header-center">
@@ -39,8 +39,8 @@
         <div class="contains">
             <div class="contains-top">
                 <div class="contains-top-left">
-                    <p>日付:{{$post->date}}</p>
-                    <p>今日のパフォーマンス : {{$post->performance}}</p>
+                    <p>{{$post->date}}</p>
+                    <h3>パフォーマンス : {{$post->performance}}</h3>
                 </div>
                 <div class="contains-top-right">
                     <a href="{{ route('post.edit', $post) }}" class="edit">編集</a>
@@ -55,16 +55,16 @@
             </div>          
             {{-- 記録詳細内容記載 --}}
             <div class="contains-center">
-                <p>就寝時間： {{date('H:i', strtotime($post->bed_time_start)) }}</p>
-                <p>起床時間： {{date('H:i', strtotime($post->bed_time_end)) }}</p>
-                <p>体温 : {{ $post->body_temperature }}℃</p>
-                <p>スマホ使用時間 : {{ $post->phone_time }}分</p>
-                <p>運動 : {{ $post->exercise_time }}分</p>
-                <p>仕事 : {{ $post->job_time }}時間</p>
-                <p>入浴時間 : {{ $post->bathing_time }}分</p>
+                <h4>就寝時間： {{date('H:i', strtotime($post->bed_time_start)) }}</h4>
+                <h4>起床時間： {{date('H:i', strtotime($post->bed_time_end)) }}</h4>
+                <h4>体温 : {{ $post->body_temperature }}℃</h4>
+                <h4>スマホ使用時間 : {{ $post->phone_time }}分</h4>
+                <h4>運動 : {{ $post->exercise_time }}分</h4>
+                <h4>仕事 : {{ $post->job_time }}時間</h4>
+                <h4>入浴時間 : {{ $post->bathing_time }}分</h4>
             </div>
             <div class="contains-bottom">
-                <p>{{ $post->created_at }}/{{ $post->user->name??'匿名' }}</p>
+                <p>{{ $post->created_at }}</p>
             </div>
         </div>
         @endforeach

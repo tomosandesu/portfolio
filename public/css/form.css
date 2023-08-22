@@ -2,7 +2,7 @@ header{
     top:0;
     height:100px;
     border-bottom: 1px solid black;
-    background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+    background: #46a860;
  }
  .header-all{
     display:flex;
@@ -16,6 +16,7 @@ header{
 .title{
     margin:30px 50px 30px 50px;
     font-family: cursive;
+    font-size: 20px;
 }
 .header-center{
     width: 1000px;
@@ -32,8 +33,9 @@ header{
  .moves{
     width: 150px;
     height:50px;
-    background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
+    background: white;
     margin:30px 30px 0px 50px;
+    border-radius: 30px;;
  }
 .move{
     width: 100px;
@@ -44,7 +46,6 @@ header{
     border-left:1px solid navy;
     border-right:1px solid navy;
     text-align:center;
-    background-color: rgb(238, 243, 212);
 }
 .header-right{
     width: 206px;
@@ -59,10 +60,10 @@ header{
 }
 main{
     position:relative;
-    background-color: lightblue;
+    background-color: #46a860;
     height: 700px;
     width: 100%;
-    margin: 0 auto;
+
 }
 .error{
     background-color: #fdd;
@@ -74,20 +75,20 @@ main{
     left:22%;
     width:900px;
     height: 600px;
-    background-color: brown;
+    border: 1px solid navy;
 
 }
 .record-top{
     width:900px;
     height:500px;
-    background-color: cadetblue;
     display:flex;
+    background-color: white;
 }
 .record-left{
    width:300px;
    height:450px;
-   background-color: cadetblue;
    margin:30px 50px 0 100px;
+   background-color: white;
 }
 .today{
     width:250px;
@@ -118,7 +119,7 @@ main{
 .record-right{
     width:300px;
     height:450px;
-    background-color: cadetblue;
+    background-color: white;
     margin:30px 100px 0 50px;
 }
 .exercise_time{
@@ -150,7 +151,7 @@ main{
 .record-bottom{
    width:900px;
    height:100px;
-   background-color: cadetblue;
+   background-color: white;
 }
 .finish{
     display:block;
@@ -206,6 +207,35 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
  @media (min-width: 520px) and (max-width: 960px) {
     
     
@@ -213,7 +243,7 @@ footer{
         width: 800px;
         height:100px;
         border-bottom: 1px solid black;
-        background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+        background:  #46a860;
      }
      .header-all{
         display:flex;
@@ -226,8 +256,9 @@ footer{
         height:90px;
     }
     .title{
-        margin:30px 50px 30px 50px;
+        margin:0px 50px 30px 50px;
         font-family: cursive;
+        font-size:15px;
     }
     .header-center{
         width: 400px;
@@ -244,7 +275,6 @@ footer{
      .moves{
         width: 100px;
         height:50px;
-        background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
         margin:30px 20px 0px 20px;
      }
     .move{
@@ -256,7 +286,6 @@ footer{
         border-left:1px solid navy;
         border-right:1px solid navy;
         text-align:center;
-        background-color: rgb(238, 243, 212);
     }
     .register{
       margin-top:5px;
@@ -267,10 +296,9 @@ footer{
     }
     main{
         position:relative;
-        background-color: lightblue;
+        background-color: #46a860;
         height: 700px;
         width: 800px;
-
     }
     .error{
         background-color: #fdd;
@@ -279,23 +307,21 @@ footer{
     .record{
         position :absolute;
         top:13%;
-        left:2%;
+        left:1%;
         margin:auto;
         width:700px;
         height: 600px;
-        background-color: brown;
+        background-color: white;
     
     }
     .record-top{
         width:700px;
         height:500px;
-        background-color: cadetblue;
         display:flex;
     }
     .record-left{
        width:300px;
        height:450px;
-       background-color: cadetblue;
        margin:10px 10px 0 80px;
     }
     .today{
@@ -327,7 +353,6 @@ footer{
     .record-right{
         width:300px;
         height:450px;
-        background-color: cadetblue;
         margin:10px 10px 0 10px;
     }
     .exercise_time{
@@ -359,7 +384,6 @@ footer{
     .record-bottom{
        width:700px;
        height:100px;
-       background-color: cadetblue;
     }
     .finish{
         display:block;
@@ -416,13 +440,60 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  @media (min-width: 320px) and (max-width: 520px) {
 
     header{
         width: 400px;
         height:100px;
         border-bottom: 1px solid black;
-        background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+        background: #46a860;
      }
      .header-all{
         display:flex;
@@ -437,6 +508,7 @@ footer{
     .title{
         margin:10px 5px 10px 5px;
         font-family: cursive;
+        font-size: 10px;
     }
     .header-center{
         width: 200px;
@@ -455,7 +527,6 @@ footer{
         width: 80px;
         height:30px;
         font-size:10px;
-        background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
         margin:50px 10px 0px 10px;
      }
     .move{
@@ -467,8 +538,7 @@ footer{
         border-left:1px solid navy;
         border-right:1px solid navy;
         text-align:center;
-        background-color: rgb(238, 243, 212);
-    }
+        }
     .register{
       margin-top:5px;
     }
@@ -477,10 +547,9 @@ footer{
         padding: 10px 0px;
     }
     main{
-        background-color: lightblue;
+        background-color: #46a860;
         height: 700px;
         width: 400px;
-
     }
     .error{
         background-color: #fdd;
@@ -489,19 +558,17 @@ footer{
     .record{
         width:350px;
         height: 500px;
-        background-color: brown;
+        background-color: #46a860;
     
     }
     .record-top{
         width:350px;
         height:500px;
-        background-color: cadetblue;
         display:flex;
     }
     .record-left{
        width:150px;
        height:450px;
-       background-color: cadetblue;
        margin:5px 5px 0 5px;
     }
     .today{
@@ -533,7 +600,6 @@ footer{
     .record-right{
         width:150px;
         height:450px;
-        background-color: cadetblue;
         margin:10px 10px 0 10px;
     }
     .exercise_time{
@@ -563,9 +629,9 @@ footer{
         background-color: lightgray;
     }
     .record-bottom{
-       width:400px;
+       width:340px;
        height:100px;
-       background-color: cadetblue;
+
     }
     .finish{
         display:block;

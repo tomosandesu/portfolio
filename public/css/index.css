@@ -1,6 +1,6 @@
 header{
     top:0;
-    background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+    background: #46a860;
     height:100px;
     border-bottom: 1px solid navy;
  }
@@ -33,9 +33,9 @@ header{
 .moves{
    width: 150px;
    height:50px;
-   background-color: yellow;
    margin:30px 30px 0px 50px;
-   background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
+   background-color:white;
+   border-radius: 30px;
 }
  .move{
      width: 100px;
@@ -46,40 +46,42 @@ header{
      border-left:1px solid navy;
      border-right:1px solid navy;
      text-align:center;
-     background-color: rgb(238, 243, 212);
+     background-color: #46a860;
  }
  main{
-    background-color: rgb(201, 201, 241);
+    background-color: #46a860;
     height: 5300px;
     overflow:hidden;
  }
  .contains{
-    width: 1200px;
+    width: 1000px;
     height: 470px;
-    background-color: azure;
-    margin: 50px 200px 10px 200px;
+    background-color: white;
+    margin: 50px 200px 10px 300px;
     border: 1px solid navy;
  }
  .contains-top{
    border-bottom:1px solid black;
    display: flex;
-   background-color: rgb(238, 244, 205);
  }
  .contains-top-left{
-    width: 900px;
+    width: 600px;
     height: 100px;
+ }
+ .contains-top-left h3{
+   margin:20px;
  }
  .contains-top-left p{
    margin:20px;
  }
  .contains-top-right{
-   width: 300px;
+   width: 400px;
    height: 100px;
    display:flex;
  }
  .contains-top-right a{
    border:1px solid navy;
-   background-color:chartreuse;
+   background-color:#46a860;
    width: 100px;
    height: 20px;
    text-align:center;
@@ -89,7 +91,7 @@ header{
    padding-bottom: 7px;
    text-decoration:none;
    display:block;
-   margin:40px 5px 0px 20px;
+   margin:40px 5px 0px 120px;
  }
  .delete{
    border:1px solid navy;
@@ -106,14 +108,14 @@ header{
  }
 
  .contains-center{
-    width: 1200px;
+    width: 1000px;
     height: 300px;
  }
- .contains-center p{
+ .contains-center h4{
     padding-left: 20px;
  }
  .contains-bottom{
-    width: 1200px;
+    width: 1000px;
     height: 70px;
     border-top:1px solid navy;
  }
@@ -159,7 +161,7 @@ header{
 @media (min-width: 520px) and (max-width: 960px) {
    
    header{
-      background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+      background: #46a860;
       height:100px;
       width: 850px;
       border-bottom: 1px solid navy;
@@ -176,8 +178,9 @@ header{
       height:90px;
    }
    .title{
-      margin:10px 50px 30px 50px;
+      margin:0px 50px 30px 50px;
       font-family: cursive;
+      font-size: 13px;
    }
    .header-center{
       width: 1000px;
@@ -194,9 +197,7 @@ header{
    .moves{
       width: 100px;
       height:50px;
-      background-color: yellow;
       margin:30px 30px 0px 50px;
-      background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
    }
    .move{
       width: 80px;
@@ -207,10 +208,9 @@ header{
       border-left:1px solid navy;
       border-right:1px solid navy;
       text-align:center;
-      background-color: rgb(238, 243, 212);
    }
    main{
-      background-color: rgb(201, 201, 241);
+      background-color:#46a860;
       height: 5300px;
       width: 850px;
       overflow:hidden;
@@ -218,14 +218,12 @@ header{
    .contains{
       width: 600px;
       height: 470px;
-      background-color: azure;
       margin: 50px 100px 10px 100px;
       border: 1px solid navy;
    }
    .contains-top{
       border-bottom:1px solid black;
       display: flex;
-      background-color: rgb(238, 244, 205);
    }
    .contains-top-left{
       width: 400px;
@@ -241,7 +239,7 @@ header{
    }
    .contains-top-right a{
       border:1px solid navy;
-      background-color:chartreuse;
+      background-color:#46a860;
       width: 50px;
       height: 20px;
       text-align:center;
@@ -271,7 +269,7 @@ header{
       width: 600px;
       height: 300px;
    }
-   .contains-center p{
+   .contains-center h4{
       padding-left: 20px;
    }
    .contains-bottom{
@@ -308,7 +306,7 @@ header{
    /* スタイルの調整 */
 
    header{
-      background: linear-gradient(rgb(109, 238, 167), rgb(200, 239, 100));
+      background: #46a860;
       height:100px;
       width: 400px;
       border-bottom: 1px solid navy;
@@ -325,8 +323,9 @@ header{
       height:90px;
    }
    .title{
-      margin:10px 10px 30px 10px;
+      margin:0px 10px 10px 0px;
       font-family: cursive;
+      font-size: 12px;
    }
    .header-center{
       width: 200px;
@@ -343,9 +342,7 @@ header{
    .moves{
       width: 80px;
       height:50px;
-      background-color: yellow;
       margin:30px 0px 0px 10px;
-      background: linear-gradient(rgb(253, 75, 101), rgb(232, 138, 191));
    }
    .move{
       width: 80px;
@@ -356,32 +353,35 @@ header{
       border-left:1px solid navy;
       border-right:1px solid navy;
       text-align:center;
-      background-color: rgb(238, 243, 212);
    }
    main{
-      background-color: rgb(201, 201, 241);
+      background-color: #46a860;
       height: 5300px;
       width: 400px;
       overflow:hidden;
    }
    .contains{
       width: 350px;
-      height: 470px;
-      background-color: azure;
+      height: 350px;
+      background-color: white;
       margin: 50px 20px 10px 20px;
       border: 1px solid navy;
    }
    .contains-top{
       border-bottom:1px solid black;
       display: flex;
-      background-color: rgb(238, 244, 205);
-   }
+      }
    .contains-top-left{
       width: 200px;
       height: 100px;
    }
+   .contains-top-left h3{
+      margin:10px;
+      font-size: 13px;
+   }
    .contains-top-left p{
       margin:10px;
+      font-size: 13px;
    }
    .contains-top-right{
       width: 150px;
@@ -390,7 +390,7 @@ header{
    }
    .contains-top-right a{
       border:1px solid navy;
-      background-color:chartreuse;
+      background-color:#46a860;
       width: 50px;
       height: 20px;
       text-align:center;
@@ -418,18 +418,20 @@ header{
 
    .contains-center{
       width: 350px;
-      height: 300px;
+      height: 200px;
    }
-   .contains-center p{
+   .contains-center h4{
       padding-left: 10px;
+      font-size: 10px;
    }
    .contains-bottom{
       width: 350px;
-      height: 70px;
+      height: 50px;
       border-top:1px solid navy;
    }
    .contains-bottom p{
       padding-left: 10px;
+      font-size: 10px;
    }
    footer{
       background-color: lightsteelblue;
